@@ -19,15 +19,15 @@
 
 				$('.nav-link').css({'color':'#fff'});
 				if(scroll<$('#about').offset().top){
-					$('.nav-link').eq(0).css({'color':'#ffcc1d'});
+					$('.nav-link').eq(0).css({'color':'#FFE194'});
 				}else if(scroll<$('#skill').offset().top){
-					$('.nav-link').eq(1).css({'color':'#ffcc1d'});
+					$('.nav-link').eq(1).css({'color':'#FFE194'});
 				}else if(scroll<$('#portfolio').offset().top){
-					$('.nav-link').eq(2).css({'color':'#ffcc1d'});
+					$('.nav-link').eq(2).css({'color':'#FFE194'});
 				}else if(scroll<$('#contact').offset().top){
-					$('.nav-link').eq(3).css({'color':'#ffcc1d'});
+					$('.nav-link').eq(3).css({'color':'#FFE194'});
 				}else{
-					$('.nav-link').eq(4).css({'color':'#ffcc1d'});
+					$('.nav-link').eq(4).css({'color':'#FFE194'});
 				}
 
 			});
@@ -43,7 +43,7 @@
 			event.preventDefault();
 			
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},500);
-			$(this).css({'color':'#ffcc1d'});
+			$(this).css({'color':'#FFE194'});
 		});
 	});
 
